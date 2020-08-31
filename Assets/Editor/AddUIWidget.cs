@@ -31,4 +31,15 @@ public class AddUIWidget
         GameObject seleObj = Selection.activeGameObject;
         seleObj.transform.position = worldPos;
     }
+
+
+    [MenuItem("CONTEXT/Rigidbody/刚体测试",true,10)]
+    static void DoSomething(MenuCommand command)
+    {
+        Rigidbody body = (Rigidbody)command.context;
+        body.mass = 5;
+        Debug.Log("Changed Rigidbody's Mass to " + body.mass + " from Context Menu...");
+    }
+
+
 }

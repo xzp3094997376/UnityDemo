@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MyWindow : EditorWindow
 {
-    [MenuItem("Window/My Window")]
+    [MenuItem("Window/My Window #&g")]//
 
     public static void ShowWindow()
     {
@@ -19,7 +19,7 @@ public class MyWindow : EditorWindow
     public Texture2D icon;
     bool isclick = false;
     string content = "no clicked";
-    void OnGUI()  //每一帧绘制
+    void OnGUI()  //窗口获得焦点时被激活 每一帧绘制
     {
        
         // 此处为实际窗口代码
@@ -55,5 +55,13 @@ public class MyWindow : EditorWindow
 
         AssetDatabase.ExportPackage("Assets/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png", "Assets/Demigiant/DemiLib/Core/Editor/Imgs/1.unitypackage");
         AssetDatabase.Refresh();
+    }
+
+    /// <summary>
+    /// 找到对应的资源
+    /// </summary>
+    void SearchAssets()
+    {
+        //Editor.Destroy()
     }
 }
