@@ -27,7 +27,6 @@ public class ScriptsReloadCall
     }
 
 
-
     /// <summary>
     /// 双击打开资源时调用
     /// </summary>
@@ -50,5 +49,21 @@ public class ScriptsReloadCall
         return false; // we did not handle the open
     }
 
-  
+    /// <summary>
+    /// order 表示属性下多个方法的调用顺序
+    /// </summary>
+    /// <param name="target"></param>
+    /// <param name="pathToBuiltProject"></param>
+    [PostProcessBuildAttribute(0)]
+    public static void OnPostprocessBuild(BuildTarget target, string pathToBuiltProject)
+    {
+        Debug.Log(target +"  0");
+    }
+    [PostProcessBuildAttribute(1)]
+    public static void OnPostprocessBuild1(BuildTarget target, string pathToBuiltProject)
+    {
+        Debug.Log(pathToBuiltProject+"    1");
+    }
+
+
 }
