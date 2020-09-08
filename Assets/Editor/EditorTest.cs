@@ -86,7 +86,7 @@ public class ExampleClass : EditorWindow
         GameObjectUtility.EnsureUniqueNameForSibling(go);
         // Register the creation in the undo system
         Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
-        Selection.activeObject = go;
+        Selection.activeObject = go;        
     }
 
 

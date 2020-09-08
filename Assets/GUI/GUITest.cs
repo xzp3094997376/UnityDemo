@@ -13,7 +13,7 @@ public class GUITest : MonoBehaviour//运行时做测试用
         GUI.Box(new Rect(10, 10, 100, 90), "Loader Menu");
 
         // 创建第一个按钮。如果按下此按钮，则会执行 Application.Loadlevel (1)
-        if (GUI.Button(new Rect(20, 40, 80, 20), "Level 1"))
+        if (GUI.Button(new Rect(400, 40, 80, 20), "Level 1"))
         {
             PlayerPrefs.SetString("screenMode", screen.single.ToString("g"));
         }

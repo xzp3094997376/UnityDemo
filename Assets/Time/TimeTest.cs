@@ -9,6 +9,7 @@ public class TimeTest : MonoBehaviour
     void Start()
     {
         _last = Time.realtimeSinceStartup;
+    
     }
 
     float _last=0;

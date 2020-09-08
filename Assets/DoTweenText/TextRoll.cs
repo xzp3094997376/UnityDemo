@@ -23,9 +23,24 @@ public class TextRoll : MonoBehaviour
         {
             TestSeq(indexArr);
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            DoTextTest();
+        }
     }
 
-    int[] indexArr = new int[] { 10,500};
+
+    /// <summary>
+    ///打字效果显示
+    /// </summary>
+    [TextArea]
+    public string textStr;//文本显示
+    void DoTextTest()
+    {
+        text.DOText(textStr,10);
+    }
+    int[] indexArr = new int[] { 10,500};//数字从开始变化到另外一个数字
     void TestSeq(int[] info)
     {
         int newScore = info[1];
