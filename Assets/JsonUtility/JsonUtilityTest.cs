@@ -55,7 +55,7 @@ public class JsonUtilityTest : MonoBehaviour
         string path = dirPath + "/jsonTest.json";
         using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
         {
-            byte[] byteArr = Encoding.UTF8.GetBytes(jsonStr);
+            byte[] byteArr = Encoding.UTF8.GetBytes(jsonStr);   
             fs.Write(byteArr, 0, byteArr.Length);
             fs.Flush();
             fs.Close();

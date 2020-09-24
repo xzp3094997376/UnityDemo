@@ -176,7 +176,7 @@ public class MyExcel : MonoBehaviour
         for (int b = 0; b < MyString.Count; b++)
         {
 
-            GUI.Label(new Rect(400,100+ 20 * b, 200, 20),MyString[b]);
+            GUI.Label(new Rect(400,100+ 20 * b, 200, 20),MyString[b]);  
 
             //Arabic And Persian Support
             //GUI.Label(new Rect(400, 100 + 20 * b, 200, 20), ArabicFixer.Fix(MyString[b]));
