@@ -1,0 +1,79 @@
+Malwarebytes
+www.malwarebytes.com
+
+-Log Details-
+Scan Date: 9/3/20
+Scan Time: 3:30 PM
+Log File: 68e8522a-edb7-11ea-bd25-d897ba809b0c.json
+
+-Software Information-
+Version: 4.2.0.82
+Components Version: 1.0.1025
+Update Package Version: 1.0.29375
+License: Trial
+
+-System Information-
+OS: Windows 10 (Build 17763.1217)
+CPU: x64
+File System: NTFS
+User: GTADATA\zhanpeng.xie/xie
+
+-Scan Summary-
+Scan Type: Threat Scan Manual
+Scan Initiated By: Manual
+Result: Completed
+Objects Scanned: 404347
+Threats Detected: 10
+Threats Quarantined: 0
+Time Elapsed: 7 min, 10 sec
+
+-Scan Options-
+Memory: Enabled
+Startup: Enabled
+Filesystem: Enabled
+Archives: Enabled
+Rootkits: Disabled
+Heuristics: Enabled
+PUP: Detect
+PUM: Detect
+
+-Scan Details-
+Process: 0
+(No malicious items detected)
+
+Module: 0User
+(No malicious items detected)
+
+Registry Key: 0
+(No malicious items detected)
+
+Registry Value: 2                
+PUM.Optional.MSExclusion, HKLM\SOFTWARE\MICROSOFT\MICROSOFT ANTIMALWARE\EXCLUSIONS\PROCESSES|SVCHOST.EXE, No Action By User, 6939, 250901, 1.0.29375, , ame, , , 
+PUM.Optional.MSExclusion, HKLM\SOFTWARE\MICROSOFT\WINDOWS DEFENDER\EXCLUSIONS\PROCESSES|SVCHOST.EXE, No Action By User, 6939, 250909, 1.0.29375, , ame, , , 
+
+Registry Data: 4
+Hijack.StartPage, HKU\S-1-5-21-4050539409-2547793138-228720716-500\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN|START PAGE, No Action By User, 6496, 291464, 1.0.29375, , ame, , , 
+Hijack.StartPage, HKU\S-1-5-21-4050539409-2547793138-228720716-500\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN|DEFAULT_PAGE_URL, No Action By User, 6496, 291464, 1.0.29375, , ame, , , 
+Hijack.StartPage, HKU\S-1-5-21-2162358433-3692696391-4137458629-36231\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN|START PAGE, No Action By User, 6496, 291464, 1.0.29375, , ame, , , 
+Hijack.StartPage, HKU\S-1-5-21-2162358433-3692696391-4137458629-36231\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN|DEFAULT_PAGE_URL, No Action By User, 6496, 291464, 1.0.29375, , ame, , , 
+
+Data Stream: 0
+(No malicious items detected)
+
+Folder: 0
+(No malicious items detected)
+
+File: 4
+Generic.Malware/Suspicious, C:\USERS\ZHANPENG.XIE\APPDATA\ROAMING\2345PIC\UPDATE\DOWNLOAD\0\2345PIC_V9.3.0.8549_UP2.EXE, No Action By User, 0, 392686, 1.0.29375, , shuriken, , 03B99D86AD9255C04C4BB65C7C3D5C15, CEB39197A90AE71EFC4977EDF13BB56F53C7A5CAD2687F31182B3D4E13A5E744
+Malware.AI.3860642442, C:\USERS\ZHANPENG.XIE\APPDATA\ROAMING\GAMEHALL_2345\UNINSTALL.EXE, No Action By User, 1000000, 0, 1.0.29375, FF6ED3DC50530A32E61CBA8A, dds, 00880213, AD999A53E962EF536C561E2B2DEF4390, E8B587C65E890926D127AD454FA65EC9F1E0869697C34277A19599CCCD48012D
+Malware.AI.3860642442, C:\USERS\ZHANPENG.XIE\APPDATA\ROAMING\GAMEHALL_2345\APPLICATION\2.6.1.1480\UNINSTALL.EXE, No Action By User, 1000000, 0, 1.0.29375, FF6ED3DC50530A32E61CBA8A, dds, 00880213, AD999A53E962EF536C561E2B2DEF4390, E8B587C65E890926D127AD454FA65EC9F1E0869697C34277A19599CCCD48012D
+PUP.Optional.PushNotifications.Generic, C:\USERS\ZHANPENG.XIE\APPDATA\LOCAL\GOOGLE\CHROME\USER DATA\Default\Preferences, No Action By User, 201, 838845, 1.0.29375, , ame, , 874321F3F8585ECFE00CE19D691AC778, CE5E76BF334CF8AB046E1AB1EF3E12C761368754C3C03DA513511D777D4BF16F
+
+Physical Sector: 0
+(No malicious items detected)
+
+WMI: 0
+(No malicious items detected)
+
+ 9/3/2
+(end)

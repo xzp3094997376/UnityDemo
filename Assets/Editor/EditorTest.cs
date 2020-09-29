@@ -38,7 +38,7 @@ public class ExampleClass : EditorWindow
     /// </summary>
     static void HideProces()
     {
-       // EditorUtility.DisplayCancelableProgressBar("可取消次奥")
+       // EditorUtility.DisplayCancelableProgressBar("可取消")
     }
 
     static float startVal = 0;
@@ -61,16 +61,19 @@ public class ExampleClass : EditorWindow
 
 
     #region 验证函数
-    [MenuItem("Example/caymanwindow", true,111)]   //用于判断按钮什么时候显示  //条件显示
+    [MenuItem("Example/caymanwindow",true)]   //用于判断按钮什么时候显示  //条件显示
     static bool ValidateSelection()
     {
+        Debug.Log("ValidateSelection  "+isShow);           
         return Selection.activeGameObject != null;
-    }
-    [MenuItem("Example/caymanwindow", false,112)]   //点击按钮要做的事
+    }   
+    [MenuItem("Example/caymanwindow")]   //点击按钮要做的事
     static void Show()
     {
+        isShow =!isShow;
+        Menu.SetChecked("Example/caymanwindow", isShow);
         Debug.Log("Show:" + Selection.activeGameObject.name);
-        EditorUtility.OpenFilePanel("选择物体", /*AppDomain.CurrentDomain.BaseDirectory*/ Environment.CurrentDirectory , "cs");//assets目录
+        //string path= EditorUtility.OpenFilePanel("选择物体", /*AppDomain.CurrentDomain.BaseDirectory*/ Environment.CurrentDirectory , "cs");//assets目录
         EditorUtility.RevealInFinder(Environment.CurrentDirectory);      //工程根目录浏览
     }
     #endregion
