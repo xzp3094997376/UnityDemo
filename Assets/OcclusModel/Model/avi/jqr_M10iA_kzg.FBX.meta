@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: bddf549403046e54ca49bb40b92480c7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Dummy001
+    100002: jqr_db_01
+    100004: jqr_dlq2_01
+    100006: jqr_dlq_01
+    100008: jqr_dlqgdb_01
+    100010: jqr_dy_01
+    100012: jqr_fs_01
+    100014: jqr_fs_02
+    100016: jqr_fs_03
+    100018: jqr_hmb_01
+    100020: jqr_hmbgb_01
+    100022: jqr_ibb_01
+    100024: jqr_jdb_01
+    100026: jqr_jtb_01
+    100028: jqr_jtkg_01
+    100030: jqr_kg_01
+    100032: jqr_kzgwk_01
+    100034: jqr_kzgwk_02
+    100036: //RootNode
+    100038: jqr_mskg_01
+    100040: jqr_rjhj_01
+    100042: jqr_sjq
+    100044: jqr_zb_01
+    100046: jqr_zbcc_01
+    100048: jqr_zbgdb_01
+    100050: jqr_zdqb_01
+    100052: jqr_zjsb_01
+    100054: jqr_zsdz2_01
+    100056: jqr_zsdz_01
+    100058: jqr_sjq02
+    100060: jqr_sjq03
+    100062: jqr_sjq_BACK
+    100064: jqr_sjq_BWD
+    100066: jqr_sjq_COORD
+    100068: jqr_sjq_Data
+    100070: jqr_sjq_dh
+    100072: jqr_sjq_DISP
+    100074: jqr_sjq_Edit
+    100076: jqr_sjq_ENTER
+    100078: jqr_sjq_F1
+    100080: jqr_sjq_F2
+    100082: jqr_sjq_F3
+    100084: jqr_sjq_F4
+    100086: jqr_sjq_F5
+    100088: jqr_sjq_Fctn
+    100090: jqr_sjq_FWD
+    100092: jqr_sjq_HOLD
+    100094: jqr_sjq_Item
+    100096: jqr_sjq_jh
+    100098: jqr_sjq_KG
+    100100: jqr_sjq_Menu
+    100102: jqr_sjq_Next
+    100104: jqr_sjq_OTF
+    100106: jqr_sjq_Pbf
+    100108: jqr_sjq_PJ1
+    100110: jqr_sjq_PJ2
+    100112: jqr_sjq_PJ3
+    100114: jqr_sjq_PJ4
+    100116: jqr_sjq_PJ5
+    100118: jqr_sjq_PJ6
+    100120: jqr_sjq_Posn
+    100122: jqr_sjq_Prev
+    100124: jqr_sjq_RESET
+    100126: jqr_sjq_Sbf
+    100128: jqr_sjq_Select
+    100130: jqr_sjq_shang
+    100132: jqr_sjq_SHIFT01
+    100134: jqr_sjq_SHIFT02
+    100136: jqr_sjq_SJ1
+    100138: jqr_sjq_SJ2
+    100140: jqr_sjq_SJ3
+    100142: jqr_sjq_SJ4
+    100144: jqr_sjq_SJ5
+    100146: jqr_sjq_SJ6
+    100148: jqr_sjq_Status
+    100150: jqr_sjq_STEP
+    100152: jqr_sjq_sz0
+    100154: jqr_sjq_sz1
+    100156: jqr_sjq_sz2
+    100158: jqr_sjq_sz3
+    100160: jqr_sjq_sz4
+    100162: jqr_sjq_sz5
+    100164: jqr_sjq_sz6
+    100166: jqr_sjq_sz7
+    100168: jqr_sjq_sz8
+    100170: jqr_sjq_sz9
+    100172: jqr_sjq_v0
+    100174: jqr_sjq_Weld
+    100176: jqr_sjq_Wire01
+    100178: jqr_sjq_Wire02
+    100180: jqr_sjq_xia
+    100182: jqr_sjq_xsd
+    100184: jqr_sjq_you
+    100186: jqr_sjq_zuo
+    100188: "VR-\u706F\u5149001"
+    100190: "VR-\u706F\u5149001 1"
+    100192: "VR-\u706F\u5149002"
+    100194: "VR-\u706F\u5149002 1"
+    100196: "VR-\u706F\u5149003"
+    100198: "VR-\u706F\u5149003 1"
+    100200: "VR-\u706F\u5149004"
+    100202: "VR-\u706F\u5149004 1"
+    100204: "VR-\u706F\u5149005"
+    100206: "VR-\u706F\u5149006"
+    400000: Dummy001
+    400002: jqr_db_01
+    400004: jqr_dlq2_01
+    400006: jqr_dlq_01
+    400008: jqr_dlqgdb_01
+    400010: jqr_dy_01
+    400012: jqr_fs_01
+    400014: jqr_fs_02
+    400016: jqr_fs_03
+    400018: jqr_hmb_01
+    400020: jqr_hmbgb_01
+    400022: jqr_ibb_01
+    400024: jqr_jdb_01
+    400026: jqr_jtb_01
+    400028: jqr_jtkg_01
+    400030: jqr_kg_01
+    400032: jqr_kzgwk_01
+    400034: jqr_kzgwk_02
+    400036: //RootNode
+    400038: jqr_mskg_01
+    400040: jqr_rjhj_01
+    400042: jqr_sjq
+    400044: jqr_zb_01
+    400046: jqr_zbcc_01
+    400048: jqr_zbgdb_01
+    400050: jqr_zdqb_01
+    400052: jqr_zjsb_01
+    400054: jqr_zsdz2_01
+    400056: jqr_zsdz_01
+    400058: jqr_sjq02
+    400060: jqr_sjq03
+    400062: jqr_sjq_BACK
+    400064: jqr_sjq_BWD
+    400066: jqr_sjq_COORD
+    400068: jqr_sjq_Data
+    400070: jqr_sjq_dh
+    400072: jqr_sjq_DISP
+    400074: jqr_sjq_Edit
+    400076: jqr_sjq_ENTER
+    400078: jqr_sjq_F1
+    400080: jqr_sjq_F2
+    400082: jqr_sjq_F3
+    400084: jqr_sjq_F4
+    400086: jqr_sjq_F5
+    400088: jqr_sjq_Fctn
+    400090: jqr_sjq_FWD
+    400092: jqr_sjq_HOLD
+    400094: jqr_sjq_Item
+    400096: jqr_sjq_jh
+    400098: jqr_sjq_KG
+    400100: jqr_sjq_Menu
+    400102: jqr_sjq_Next
+    400104: jqr_sjq_OTF
+    400106: jqr_sjq_Pbf
+    400108: jqr_sjq_PJ1
+    400110: jqr_sjq_PJ2
+    400112: jqr_sjq_PJ3
+    400114: jqr_sjq_PJ4
+    400116: jqr_sjq_PJ5
+    400118: jqr_sjq_PJ6
+    400120: jqr_sjq_Posn
+    400122: jqr_sjq_Prev
+    400124: jqr_sjq_RESET
+    400126: jqr_sjq_Sbf
+    400128: jqr_sjq_Select
+    400130: jqr_sjq_shang
+    400132: jqr_sjq_SHIFT01
+    400134: jqr_sjq_SHIFT02
+    400136: jqr_sjq_SJ1
+    400138: jqr_sjq_SJ2
+    400140: jqr_sjq_SJ3
+    400142: jqr_sjq_SJ4
+    400144: jqr_sjq_SJ5
+    400146: jqr_sjq_SJ6
+    400148: jqr_sjq_Status
+    400150: jqr_sjq_STEP
+    400152: jqr_sjq_sz0
+    400154: jqr_sjq_sz1
+    400156: jqr_sjq_sz2
+    400158: jqr_sjq_sz3
+    400160: jqr_sjq_sz4
+    400162: jqr_sjq_sz5
+    400164: jqr_sjq_sz6
+    400166: jqr_sjq_sz7
+    400168: jqr_sjq_sz8
+    400170: jqr_sjq_sz9
+    400172: jqr_sjq_v0
+    400174: jqr_sjq_Weld
+    400176: jqr_sjq_Wire01
+    400178: jqr_sjq_Wire02
+    400180: jqr_sjq_xia
+    400182: jqr_sjq_xsd
+    400184: jqr_sjq_you
+    400186: jqr_sjq_zuo
+    400188: "VR-\u706F\u5149001"
+    400190: "VR-\u706F\u5149001 1"
+    400192: "VR-\u706F\u5149002"
+    400194: "VR-\u706F\u5149002 1"
+    400196: "VR-\u706F\u5149003"
+    400198: "VR-\u706F\u5149003 1"
+    400200: "VR-\u706F\u5149004"
+    400202: "VR-\u706F\u5149004 1"
+    400204: "VR-\u706F\u5149005"
+    400206: "VR-\u706F\u5149006"
+    2300000: jqr_db_01
+    2300002: jqr_dlq2_01
+    2300004: jqr_dlq_01
+    2300006: jqr_dlqgdb_01
+    2300008: jqr_dy_01
+    2300010: jqr_fs_01
+    2300012: jqr_fs_02
+    2300014: jqr_fs_03
+    2300016: jqr_hmb_01
+    2300018: jqr_hmbgb_01
+    2300020: jqr_ibb_01
+    2300022: jqr_jdb_01
+    2300024: jqr_jtb_01
+    2300026: jqr_jtkg_01
+    2300028: jqr_kg_01
+    2300030: jqr_kzgwk_01
+    2300032: jqr_kzgwk_02
+    2300034: jqr_mskg_01
+    2300036: jqr_rjhj_01
+    2300038: jqr_sjq
+    2300040: jqr_zb_01
+    2300042: jqr_zbcc_01
+    2300044: jqr_zbgdb_01
+    2300046: jqr_zdqb_01
+    2300048: jqr_zjsb_01
+    2300050: jqr_zsdz2_01
+    2300052: jqr_zsdz_01
+    2300054: jqr_sjq02
+    2300056: jqr_sjq03
+    2300058: jqr_sjq_BACK
+    2300060: jqr_sjq_BWD
+    2300062: jqr_sjq_COORD
+    2300064: jqr_sjq_Data
+    2300066: jqr_sjq_dh
+    2300068: jqr_sjq_DISP
+    2300070: jqr_sjq_Edit
+    2300072: jqr_sjq_ENTER
+    2300074: jqr_sjq_F1
+    2300076: jqr_sjq_F2
+    2300078: jqr_sjq_F3
+    2300080: jqr_sjq_F4
+    2300082: jqr_sjq_F5
+    2300084: jqr_sjq_Fctn
+    2300086: jqr_sjq_FWD
+    2300088: jqr_sjq_HOLD
+    2300090: jqr_sjq_Item
+    2300092: jqr_sjq_jh
+    2300094: jqr_sjq_KG
+    2300096: jqr_sjq_Menu
+    2300098: jqr_sjq_Next
+    2300100: jqr_sjq_OTF
+    2300102: jqr_sjq_Pbf
+    2300104: jqr_sjq_PJ1
+    2300106: jqr_sjq_PJ2
+    2300108: jqr_sjq_PJ3
+    2300110: jqr_sjq_PJ4
+    2300112: jqr_sjq_PJ5
+    2300114: jqr_sjq_PJ6
+    2300116: jqr_sjq_Posn
+    2300118: jqr_sjq_Prev
+    2300120: jqr_sjq_RESET
+    2300122: jqr_sjq_Sbf
+    2300124: jqr_sjq_Select
+    2300126: jqr_sjq_shang
+    2300128: jqr_sjq_SHIFT01
+    2300130: jqr_sjq_SHIFT02
+    2300132: jqr_sjq_SJ1
+    2300134: jqr_sjq_SJ2
+    2300136: jqr_sjq_SJ3
+    2300138: jqr_sjq_SJ4
+    2300140: jqr_sjq_SJ5
+    2300142: jqr_sjq_SJ6
+    2300144: jqr_sjq_Status
+    2300146: jqr_sjq_STEP
+    2300148: jqr_sjq_sz0
+    2300150: jqr_sjq_sz1
+    2300152: jqr_sjq_sz2
+    2300154: jqr_sjq_sz3
+    2300156: jqr_sjq_sz4
+    2300158: jqr_sjq_sz5
+    2300160: jqr_sjq_sz6
+    2300162: jqr_sjq_sz7
+    2300164: jqr_sjq_sz8
+    2300166: jqr_sjq_sz9
+    2300168: jqr_sjq_v0
+    2300170: jqr_sjq_Weld
+    2300172: jqr_sjq_Wire01
+    2300174: jqr_sjq_Wire02
+    2300176: jqr_sjq_xia
+    2300178: jqr_sjq_xsd
+    2300180: jqr_sjq_you
+    2300182: jqr_sjq_zuo
+    3300000: jqr_db_01
+    3300002: jqr_dlq2_01
+    3300004: jqr_dlq_01
+    3300006: jqr_dlqgdb_01
+    3300008: jqr_dy_01
+    3300010: jqr_fs_01
+    3300012: jqr_fs_02
+    3300014: jqr_fs_03
+    3300016: jqr_hmb_01
+    3300018: jqr_hmbgb_01
+    3300020: jqr_ibb_01
+    3300022: jqr_jdb_01
+    3300024: jqr_jtb_01
+    3300026: jqr_jtkg_01
+    3300028: jqr_kg_01
+    3300030: jqr_kzgwk_01
+    3300032: jqr_kzgwk_02
+    3300034: jqr_mskg_01
+    3300036: jqr_rjhj_01
+    3300038: jqr_sjq
+    3300040: jqr_zb_01
+    3300042: jqr_zbcc_01
+    3300044: jqr_zbgdb_01
+    3300046: jqr_zdqb_01
+    3300048: jqr_zjsb_01
+    3300050: jqr_zsdz2_01
+    3300052: jqr_zsdz_01
+    3300054: jqr_sjq02
+    3300056: jqr_sjq03
+    3300058: jqr_sjq_BACK
+    3300060: jqr_sjq_BWD
+    3300062: jqr_sjq_COORD
+    3300064: jqr_sjq_Data
+    3300066: jqr_sjq_dh
+    3300068: jqr_sjq_DISP
+    3300070: jqr_sjq_Edit
+    3300072: jqr_sjq_ENTER
+    3300074: jqr_sjq_F1
+    3300076: jqr_sjq_F2
+    3300078: jqr_sjq_F3
+    3300080: jqr_sjq_F4
+    3300082: jqr_sjq_F5
+    3300084: jqr_sjq_Fctn
+    3300086: jqr_sjq_FWD
+    3300088: jqr_sjq_HOLD
+    3300090: jqr_sjq_Item
+    3300092: jqr_sjq_jh
+    3300094: jqr_sjq_KG
+    3300096: jqr_sjq_Menu
+    3300098: jqr_sjq_Next
+    3300100: jqr_sjq_OTF
+    3300102: jqr_sjq_Pbf
+    3300104: jqr_sjq_PJ1
+    3300106: jqr_sjq_PJ2
+    3300108: jqr_sjq_PJ3
+    3300110: jqr_sjq_PJ4
+    3300112: jqr_sjq_PJ5
+    3300114: jqr_sjq_PJ6
+    3300116: jqr_sjq_Posn
+    3300118: jqr_sjq_Prev
+    3300120: jqr_sjq_RESET
+    3300122: jqr_sjq_Sbf
+    3300124: jqr_sjq_Select
+    3300126: jqr_sjq_shang
+    3300128: jqr_sjq_SHIFT01
+    3300130: jqr_sjq_SHIFT02
+    3300132: jqr_sjq_SJ1
+    3300134: jqr_sjq_SJ2
+    3300136: jqr_sjq_SJ3
+    3300138: jqr_sjq_SJ4
+    3300140: jqr_sjq_SJ5
+    3300142: jqr_sjq_SJ6
+    3300144: jqr_sjq_Status
+    3300146: jqr_sjq_STEP
+    3300148: jqr_sjq_sz0
+    3300150: jqr_sjq_sz1
+    3300152: jqr_sjq_sz2
+    3300154: jqr_sjq_sz3
+    3300156: jqr_sjq_sz4
+    3300158: jqr_sjq_sz5
+    3300160: jqr_sjq_sz6
+    3300162: jqr_sjq_sz7
+    3300164: jqr_sjq_sz8
+    3300166: jqr_sjq_sz9
+    3300168: jqr_sjq_v0
+    3300170: jqr_sjq_Weld
+    3300172: jqr_sjq_Wire01
+    3300174: jqr_sjq_Wire02
+    3300176: jqr_sjq_xia
+    3300178: jqr_sjq_xsd
+    3300180: jqr_sjq_you
+    3300182: jqr_sjq_zuo
+    4300000: jqr_kzgwk_02
+    4300002: jqr_jdb_01
+    4300004: jqr_ibb_01
+    4300006: jqr_fs_01
+    4300008: jqr_fs_02
+    4300010: jqr_dlqgdb_01
+    4300012: jqr_dlq2_01
+    4300014: jqr_zsdz2_01
+    4300016: jqr_zsdz_01
+    4300018: jqr_db_01
+    4300020: jqr_zjsb_01
+    4300022: jqr_zdqb_01
+    4300024: jqr_jtb_01
+    4300026: jqr_dy_01
+    4300028: jqr_dlq_01
+    4300030: jqr_mskg_01
+    4300032: jqr_jtkg_01
+    4300034: jqr_kg_01
+    4300036: jqr_hmb_01
+    4300038: jqr_hmbgb_01
+    4300040: jqr_zb_01
+    4300042: jqr_zbgdb_01
+    4300044: jqr_rjhj_01
+    4300046: jqr_fs_03
+    4300048: jqr_zbcc_01
+    4300050: jqr_sjq
+    4300052: jqr_kzgwk_01
+    4300054: jqr_sjq_DISP
+    4300056: jqr_sjq03
+    4300058: jqr_sjq_jh
+    4300060: jqr_sjq_sz0
+    4300062: jqr_sjq_sz1
+    4300064: jqr_sjq_sz4
+    4300066: jqr_sjq_sz7
+    4300068: jqr_sjq_RESET
+    4300070: jqr_sjq_BACK
+    4300072: jqr_sjq_sz8
+    4300074: jqr_sjq_sz5
+    4300076: jqr_sjq_sz2
+    4300078: jqr_sjq_xsd
+    4300080: jqr_sjq_Posn
+    4300082: jqr_sjq_v0
+    4300084: jqr_sjq_dh
+    4300086: jqr_sjq_sz3
+    4300088: jqr_sjq_sz6
+    4300090: jqr_sjq_sz9
+    4300092: jqr_sjq_Item
+    4300094: jqr_sjq_Status
+    4300096: jqr_sjq_OTF
+    4300098: jqr_sjq_Wire02
+    4300100: jqr_sjq_Wire01
+    4300102: jqr_sjq_Weld
+    4300104: jqr_sjq_ENTER
+    4300106: jqr_sjq_PJ6
+    4300108: jqr_sjq_SJ6
+    4300110: jqr_sjq_Sbf
+    4300112: jqr_sjq_PJ5
+    4300114: jqr_sjq_SJ5
+    4300116: jqr_sjq_Pbf
+    4300118: jqr_sjq_PJ4
+    4300120: jqr_sjq_SJ4
+    4300122: jqr_sjq_COORD
+    4300124: jqr_sjq_PJ3
+    4300126: jqr_sjq_SJ3
+    4300128: jqr_sjq_BWD
+    4300130: jqr_sjq_PJ2
+    4300132: jqr_sjq_SJ2
+    4300134: jqr_sjq_FWD
+    4300136: jqr_sjq_PJ1
+    4300138: jqr_sjq_SJ1
+    4300140: jqr_sjq_HOLD
+    4300142: jqr_sjq_you
+    4300144: jqr_sjq_xia
+    4300146: jqr_sjq_shang
+    4300148: jqr_sjq_zuo
+    4300150: jqr_sjq_STEP
+    4300152: jqr_sjq_SHIFT02
+    4300154: jqr_sjq_Fctn
+    4300156: jqr_sjq_Data
+    4300158: jqr_sjq_Edit
+    4300160: jqr_sjq_Select
+    4300162: jqr_sjq_Menu
+    4300164: jqr_sjq_SHIFT01
+    4300166: jqr_sjq_Next
+    4300168: jqr_sjq_F5
+    4300170: jqr_sjq_F4
+    4300172: jqr_sjq_F3
+    4300174: jqr_sjq_F2
+    4300176: jqr_sjq_F1
+    4300178: jqr_sjq_Prev
+    4300180: jqr_sjq_KG
+    4300182: jqr_sjq02
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_01
+    second: {fileID: 2100000, guid: 6c420d8b9ff28b7468268e04841a1cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_02
+    second: {fileID: 2100000, guid: efe1af97ea3ba2b49a35868706790c58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_03
+    second: {fileID: 2100000, guid: 99028c9c93d1aed4d8fa10ed3ffb6487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_04
+    second: {fileID: 2100000, guid: 2f69612178bd0dc47ba0d5d08d742d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_05
+    second: {fileID: 2100000, guid: 504094fc9a5409442bd556f98384aae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_db_06
+    second: {fileID: 2100000, guid: fd6a4801f1ef21c49b7d5ee3482c73c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq2_01
+    second: {fileID: 2100000, guid: c7c02928e5e7684419e10472846f06a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq2_02
+    second: {fileID: 2100000, guid: 8601adfa0b7632043977dc54c387aaa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq2_03
+    second: {fileID: 2100000, guid: 876b2be2e6c52cf4d90c3704ac52964e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq2_04
+    second: {fileID: 2100000, guid: ba067d218182bd34495c29e36f78bfa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq_01
+    second: {fileID: 2100000, guid: 45b1e584b61460c40aecca6f6d320682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq_02
+    second: {fileID: 2100000, guid: b9eeb2c16e358ca4f96fdc70b92dde63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq_03
+    second: {fileID: 2100000, guid: 9bf87758a2058ba4db40895c308bfd01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlq_04
+    second: {fileID: 2100000, guid: 06452488059ce594391f66e2ee8bc12e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dlqgdb_01
+    second: {fileID: 2100000, guid: 8e1a44314bdb9154c9eb24f9e2017fa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_01
+    second: {fileID: 2100000, guid: 70db289cabf5ea64c9d50035a0ef0dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_02
+    second: {fileID: 2100000, guid: f75fadc417e5d6442bf84dac3ec003de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_03
+    second: {fileID: 2100000, guid: 6b854e13471c052489184e2c35d8eaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_04
+    second: {fileID: 2100000, guid: 1ece6b004834d2d4fb87cce911b4097d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_05
+    second: {fileID: 2100000, guid: 29afa14f8cc48774c928e814e7c7e534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_06
+    second: {fileID: 2100000, guid: 948e61ef5f4ceba4fbb9d328d0614207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_dy_07
+    second: {fileID: 2100000, guid: d02a11d952ca284478e07d8a63c59c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_fs_01
+    second: {fileID: 2100000, guid: 90a43a895e800254d8aa7a5c5d46791d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_fs_02
+    second: {fileID: 2100000, guid: 41a8bbcf3b71df24195716b92d3a44ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmb_01
+    second: {fileID: 2100000, guid: 4838880d570c6e2438234f48fd4f946f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmb_02
+    second: {fileID: 2100000, guid: da962f13fc04b014cbd234193fddea97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmb_03
+    second: {fileID: 2100000, guid: 541799244288c60418501ef3181c9c3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmb_04
+    second: {fileID: 2100000, guid: 3fae390eb0707f84ca82ad01214465d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmb_05
+    second: {fileID: 2100000, guid: 91b81fff912975c47b0b991541025b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmbgb_01
+    second: {fileID: 2100000, guid: d22ad9ad6f4430847b28995d47e57721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_hmbgb_02
+    second: {fileID: 2100000, guid: 67ba2eea517411745834ff2b3668b54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_01
+    second: {fileID: 2100000, guid: 3284a82c551794947b7374bc0d3a6ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_02
+    second: {fileID: 2100000, guid: bc3234a8900c4f743a8af04bb0140cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_03
+    second: {fileID: 2100000, guid: 232f96f82857a6649b9fa0dbd29fd4c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_04
+    second: {fileID: 2100000, guid: 83ddd028a7c9989439e575f77504c323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_05
+    second: {fileID: 2100000, guid: a6c225b0c5fbc974e8f60d11ee3fa15c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_06
+    second: {fileID: 2100000, guid: c9cf14d62c593d746abff5e933ea43d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_07
+    second: {fileID: 2100000, guid: 38664aad49518e14f960fe670b862e44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_ibb_08
+    second: {fileID: 2100000, guid: 6dcaf1bbe23562c4386a82af691b718c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jdb_01
+    second: {fileID: 2100000, guid: dd71f52cf6a4ae448a738a4b2fc39e02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jdb_02
+    second: {fileID: 2100000, guid: 001a4c4c039c6b045a674e1cf698904e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_01
+    second: {fileID: 2100000, guid: 34b5dbeb9834d5c4ea35e72e00da02c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_02
+    second: {fileID: 2100000, guid: 7012b4be7f1fda04989e0a08c0b29464, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_03
+    second: {fileID: 2100000, guid: 678f020c601c65e4c805b703c35245a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_04
+    second: {fileID: 2100000, guid: b06703c7bf3e8034f98a63fbe98a1c1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_05
+    second: {fileID: 2100000, guid: 1b447dc9fcaf96e4181ed36124460ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_06
+    second: {fileID: 2100000, guid: f19dd62ad26a9de48a971d563545da25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_07
+    second: {fileID: 2100000, guid: 6594ba30f82dbec43990458f13345d3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtb_08
+    second: {fileID: 2100000, guid: 03a6b8a695a666848b74a72fd6af3623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtkg_01
+    second: {fileID: 2100000, guid: 85d2fdddb92cf9147bc9fc746f79fa6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtkg_02
+    second: {fileID: 2100000, guid: d8b77e9c4a5ab014eb389f5587591453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtkg_03
+    second: {fileID: 2100000, guid: a6f677c65e292b142be6e39747193ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_jtkg_04
+    second: {fileID: 2100000, guid: e75c601e4a058cd4f9d2e802e7620188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kg_01
+    second: {fileID: 2100000, guid: 74432f953393394449b8ee2e929eda10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kg_02
+    second: {fileID: 2100000, guid: 415192e1b7bf9e6439d7aafd180b6409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kg_03
+    second: {fileID: 2100000, guid: c2053b4decb1c3e43ba2453122c56b40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kg_04
+    second: {fileID: 2100000, guid: b2828ee1fd96e934bbe9d27629222a52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kg_05
+    second: {fileID: 2100000, guid: 61e5ed6bf5d1e3f4d810386613a1d2b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk01_01
+    second: {fileID: 2100000, guid: 53279bf8871a98146858be748af06c79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk01_02
+    second: {fileID: 2100000, guid: d141181a2f0881240809f0c09075b96d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk01_03
+    second: {fileID: 2100000, guid: bd426228575816644a642dfcead4adc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk01_04
+    second: {fileID: 2100000, guid: c43755a0eadf04c4691d2825adc6f62f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk01_05
+    second: {fileID: 2100000, guid: ff92285db37acbe4aa4588b9db33a51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_001
+    second: {fileID: 2100000, guid: 5ffe6d98c816bc24195dc13976201125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_002
+    second: {fileID: 2100000, guid: 5480984deb278db4fa5f74560f2212ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_003
+    second: {fileID: 2100000, guid: 9e8ef02b0b64d5c4d8f4a1e029a526f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_004
+    second: {fileID: 2100000, guid: 367d483217b16524c94075c9ee32424f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_005
+    second: {fileID: 2100000, guid: 13a57f07bdd45bc48a020222e54cd09e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_01
+    second: {fileID: 2100000, guid: b80c3b3fbf35ac74797d8f5ccd686375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_02
+    second: {fileID: 2100000, guid: ac32aa227cdff4a4383953b01c33696c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_03
+    second: {fileID: 2100000, guid: 7404591d3e556904daa4037d3b5fa358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_kzgwk_01_04
+    second: {fileID: 2100000, guid: 316222f04ac85ff4f894d1f1e176e699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_mskg_01
+    second: {fileID: 2100000, guid: badf746025701d14a90c3be572bf1cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_mskg_02
+    second: {fileID: 2100000, guid: da20d8ffb341e2f44abaca9dc5105c58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_01
+    second: {fileID: 2100000, guid: 92e21bed9f231544292f5eb7e6251844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_02
+    second: {fileID: 2100000, guid: f5ce396266624ac40a2f004de986677a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_03
+    second: {fileID: 2100000, guid: 57cae8a86e50882488c21c632a28ec53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_04
+    second: {fileID: 2100000, guid: d5f4070b2146e1a45b1b52944856fa11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_05
+    second: {fileID: 2100000, guid: cdd50686a32f2784c978cce52585b058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_rjhj_06
+    second: {fileID: 2100000, guid: c1bdd6e868595b4409806e3895e3ed94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_01
+    second: {fileID: 2100000, guid: c052fc8848ad0324281d0b1176857b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_02
+    second: {fileID: 2100000, guid: aa5981d3460cf574bbe46facebfb2f1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_03
+    second: {fileID: 2100000, guid: 1a41c0eb2b4e6ac4ba312270f3ffb8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_05
+    second: {fileID: 2100000, guid: 611a6f675fb3f0d49b9e7728ab2eac57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_06
+    second: {fileID: 2100000, guid: 63786c5c51ee8304faad67d9c3841224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_sjq_07
+    second: {fileID: 2100000, guid: 3841cd662ac068d4498759a53ae13d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zb_01
+    second: {fileID: 2100000, guid: 3f28337dcb3d68d438ae1ccf3dbdcaba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zb_02
+    second: {fileID: 2100000, guid: 6ef0d9f0ca87bed4f914c9af662371dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zb_03
+    second: {fileID: 2100000, guid: 94e4a592d85fc6d458c1681bc11df418, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zb_04
+    second: {fileID: 2100000, guid: 754886be0b1054d4fa77689da7c32c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zb_05
+    second: {fileID: 2100000, guid: 1eae453d5789df341b1bb460acfa706f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zbcc_01
+    second: {fileID: 2100000, guid: d6c5195a713025c42af9da38dc97132b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zbcc_02
+    second: {fileID: 2100000, guid: cb87df2b59dfc0d4fbd7d75a5b1088c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zbcc_03
+    second: {fileID: 2100000, guid: f2023cfb06ff8c0469d256911d2be086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zbgdb_01
+    second: {fileID: 2100000, guid: 09fb2d6741cd5074ea2656b1de3d5c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_01
+    second: {fileID: 2100000, guid: d38aebff70ad1c34283992e1868afbbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_02
+    second: {fileID: 2100000, guid: 7011ad0251c80b546bef97469b25fbff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_03
+    second: {fileID: 2100000, guid: df528b784e989544eba9be75211af450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_04
+    second: {fileID: 2100000, guid: 7c5a107556def294cb45018af154fdf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_05
+    second: {fileID: 2100000, guid: 0934e0f6a8863f14985f20890a050ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zdqb_06
+    second: {fileID: 2100000, guid: d4325d75dc2eee64b800b9b0f38641dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_01
+    second: {fileID: 2100000, guid: 908db8b230c5e724895f1272c9c79713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_02
+    second: {fileID: 2100000, guid: 353b9b057e8c3404c97c3ce9603a5297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_03
+    second: {fileID: 2100000, guid: 3cb07fdc4f244074daf22ac3e7d960dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_04
+    second: {fileID: 2100000, guid: 4cf900266639cb04fad8d26eba90c10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_05
+    second: {fileID: 2100000, guid: 9e528551b31e0994ca9718c2977af2f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zjsb_06
+    second: {fileID: 2100000, guid: 1c57491aae12c534ca75e24689d1d6ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz2_01
+    second: {fileID: 2100000, guid: beab470e8375562439462cc297befb63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz_01
+    second: {fileID: 2100000, guid: b69a80b321fa82b47a6cfe77d1cfba3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz_02
+    second: {fileID: 2100000, guid: 34a83be84bac6d745a09502521936fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz_03
+    second: {fileID: 2100000, guid: 151065d2fa938d4498ca10a96cd14e94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz_04
+    second: {fileID: 2100000, guid: 04952851e644aa54482270df3c33a840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jqr_zsdz_05
+    second: {fileID: 2100000, guid: 412eacbb747e8e64bab58a0d64bfcab1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
