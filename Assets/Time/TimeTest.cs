@@ -5,6 +5,11 @@ using UnityEngine;
 public class TimeTest : MonoBehaviour
 {
     public float time_Scale=1;
+	void Awake()
+	{
+	  Debug.Log("Awake    ");
+		
+	}
     // Start is called before the first frame update
     void Start()
     {

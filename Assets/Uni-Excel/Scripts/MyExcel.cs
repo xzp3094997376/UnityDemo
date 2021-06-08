@@ -35,7 +35,7 @@ public class MyExcel : MonoBehaviour
 
         style.richText = true;
 
-        FileStream MyAddress = new FileStream(Application.dataPath + "/My First Excel.xls", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
+        FileStream MyAddress = new FileStream(Application.dataPath + "1.xls", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
 
         if (GUI.Button(new Rect(300, 10, 200, 30), "Create Excel Files With " + "<color=red>NPOI</color>"))
         {
@@ -113,7 +113,7 @@ public class MyExcel : MonoBehaviour
 
             HSSFWorkbook MyBook;
 
-            using (FileStream MyAddress_Read = new FileStream(Application.dataPath + "/My First Excel.xls", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (FileStream MyAddress_Read = new FileStream(Application.dataPath + "/1.xls", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
                 MyBook = new HSSFWorkbook(MyAddress_Read);
             }

@@ -91,6 +91,39 @@ public class ExampleClass : EditorWindow
         Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
         Selection.activeObject = go;        
     }
-
-
+    [MenuItem("Tool/AssetImportTest")]
+    static void ImportTest()
+    {
+        GameObject go = Selection.activeGameObject;
+        string path= AssetDatabase.GetAssetPath(go);
+        Debug.Log(path);            
+        ModelImporter modelImport= AssetImporter.GetAtPath(path) as ModelImporter;
+        ModelImporterClipAnimation[] modelClip = new ModelImporterClipAnimation[2];
+        for (int i = 0; i < 2; i++)
+        {
+            ModelImporterClipAnimation clip= SetClipAnimation(i.ToString(), i * 30, i * 30 + 10, i == 0);
+            modelClip[i] = clip;
+            Debug.Log(clip.name);
+        } 
+        modelImport.clipAnimations = modelClip;
+        modelImport.SaveAndReimport();
+       
+    }
+    static ModelImporterClipAnimation SetClipAnimation(string _clipName, int _firstFrame, int _lastFrame, bool _isLoop) 
+    {
+        ModelImporterClipAnimation _clip = new ModelImporterClipAnimation();
+        _clip.name = _clipName;
+        _clip.firstFrame = _firstFrame;
+        _clip.lastFrame = _lastFrame;
+        _clip.loop = _isLoop;
+        if (_isLoop)
+        {
+            _clip.wrapMode = WrapMode.Loop;
+        }
+        else
+        {
+            _clip.wrapMode = WrapMode.Default;
+        }
+        return _clip;
+    }
 }
