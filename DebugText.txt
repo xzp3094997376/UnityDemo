@@ -1,0 +1,2 @@
+裸眼OffsetX:1920
+OpenDebug1
