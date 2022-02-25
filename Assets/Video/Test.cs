@@ -8,9 +8,7 @@ using UnityEngine.Video;
 public class Test : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-
     public Slider slider;
-
     private bool isMouseDown = false;
 
     private void OnEnable()
@@ -32,8 +30,8 @@ public class Test : MonoBehaviour
             {
                 double curFrame = videoPlayer.length * slider.value * videoPlayer.frameRate;
                 videoPlayer.frame = System.Convert.ToInt32(curFrame);
-                //videoPlayer.Play();
             }
+            //transform.Translate();
         });
         
     }
