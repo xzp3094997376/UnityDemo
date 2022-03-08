@@ -1311,6 +1311,43 @@ MonoBehaviour:
       - 0.5
       - 0.5
       - 0.5
+--- !u!114 &-7678358825614679199
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
+  m_Name: ScreenSpaceReflections
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  preset:
+    overrideState: 1
+    value: 2
+  maximumIterationCount:
+    overrideState: 0
+    value: 16
+  resolution:
+    overrideState: 0
+    value: 0
+  thickness:
+    overrideState: 0
+    value: 8
+  maximumMarchDistance:
+    overrideState: 1
+    value: 100.24
+  distanceFade:
+    overrideState: 1
+    value: 0.487
+  vignette:
+    overrideState: 1
+    value: 0.715
 --- !u!114 &-6427091612338784161
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1337,6 +1374,50 @@ MonoBehaviour:
   fastMode:
     overrideState: 1
     value: 1
+--- !u!114 &-4980969402849685429
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 1
+    value: 0
+  color:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    overrideState: 0
+    value: {x: 0.5, y: 0.5}
+  intensity:
+    overrideState: 1
+    value: 0.31
+  smoothness:
+    overrideState: 1
+    value: 0.608
+  roundness:
+    overrideState: 1
+    value: 0.943
+  rounded:
+    overrideState: 1
+    value: 0
+  mask:
+    overrideState: 1
+    value: {fileID: 2800000, guid: af28470bd0e2e9543a6dfa9a1a4b348d, type: 3}
+    defaultState: 1
+  opacity:
+    overrideState: 1
+    value: 0.05
 --- !u!114 &-1053634080671169621
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1384,6 +1465,10 @@ MonoBehaviour:
   - {fileID: -9011527882636848398}
   - {fileID: -1053634080671169621}
   - {fileID: 7511018926509566018}
+  - {fileID: 4693690249037647568}
+  - {fileID: 2658151230189084272}
+  - {fileID: -7678358825614679199}
+  - {fileID: -4980969402849685429}
 --- !u!114 &290905114279768991
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1480,6 +1565,56 @@ MonoBehaviour:
   quality:
     overrideState: 1
     value: 3
+--- !u!114 &2658151230189084272
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
+  m_Name: MotionBlur
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  shutterAngle:
+    overrideState: 1
+    value: 271
+  sampleCount:
+    overrideState: 1
+    value: 10
+--- !u!114 &4693690249037647568
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.671
+  size:
+    overrideState: 1
+    value: 1.43
+  lumContrib:
+    overrideState: 1
+    value: 1
 --- !u!114 &7511018926509566018
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1492,7 +1627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
   m_Name: AutoExposure
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
