@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class TestDomain : MonoBehaviour
 {
     static int counter = 0;
+    private int tt;
     private void Start()
     {
         Debug.Log(counter);
+        tt = 0;
+        Test(tt);
+        Debug.Log(tt);
     }
 
     // Update is called once per frame
@@ -40,6 +45,11 @@ public class TestDomain : MonoBehaviour
     static void Quit()
     {
         Debug.Log("quit");
+    }
+
+    void Test([Out][In] int a)
+    {
+        a++;
     }
 
 }

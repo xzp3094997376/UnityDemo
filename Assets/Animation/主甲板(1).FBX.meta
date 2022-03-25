@@ -1,63 +1,167 @@
 fileFormatVersion: 2
 guid: 963c92436895a254d8d24de2d335a699
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: "\u51F3\u5B50"
-    100004: "\u51F3\u5B50001"
-    100006: "\u51F3\u5B50002"
-    100008: "\u5E95\u90E8"
-    100010: "\u6905\u5B50"
-    100012: "\u6905\u5B50001"
-    100014: "\u6905\u5B50002"
-    100016: "\u6905\u5B50003"
-    100018: "\u6C34"
-    400000: //RootNode
-    400002: "\u51F3\u5B50"
-    400004: "\u51F3\u5B50001"
-    400006: "\u51F3\u5B50002"
-    400008: "\u5E95\u90E8"
-    400010: "\u6905\u5B50"
-    400012: "\u6905\u5B50001"
-    400014: "\u6905\u5B50002"
-    400016: "\u6905\u5B50003"
-    400018: "\u6C34"
-    2100000: "\u4E3B\u7532\u677F"
-    2300000: //RootNode
-    2300002: "\u51F3\u5B50"
-    2300004: "\u51F3\u5B50001"
-    2300006: "\u51F3\u5B50002"
-    2300008: "\u5E95\u90E8"
-    2300010: "\u6905\u5B50"
-    2300012: "\u6905\u5B50001"
-    2300014: "\u6905\u5B50002"
-    2300016: "\u6905\u5B50003"
-    2300018: "\u6C34"
-    3300000: //RootNode
-    3300002: "\u51F3\u5B50"
-    3300004: "\u51F3\u5B50001"
-    3300006: "\u51F3\u5B50002"
-    3300008: "\u5E95\u90E8"
-    3300010: "\u6905\u5B50"
-    3300012: "\u6905\u5B50001"
-    3300014: "\u6905\u5B50002"
-    3300016: "\u6905\u5B50003"
-    3300018: "\u6C34"
-    4300000: "\u4E3B\u7532\u677F"
-    4300002: "\u6905\u5B50003"
-    4300004: "\u6905\u5B50002"
-    4300006: "\u6905\u5B50001"
-    4300008: "\u6905\u5B50"
-    4300010: "\u6C34"
-    4300012: "\u51F3\u5B50002"
-    4300014: "\u51F3\u5B50001"
-    4300016: "\u51F3\u5B50"
-    4300018: "\u5E95\u90E8"
-    11100000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: "\u51F3\u5B50"
+  - first:
+      1: 100004
+    second: "\u51F3\u5B50001"
+  - first:
+      1: 100006
+    second: "\u51F3\u5B50002"
+  - first:
+      1: 100008
+    second: "\u5E95\u90E8"
+  - first:
+      1: 100010
+    second: "\u6905\u5B50"
+  - first:
+      1: 100012
+    second: "\u6905\u5B50001"
+  - first:
+      1: 100014
+    second: "\u6905\u5B50002"
+  - first:
+      1: 100016
+    second: "\u6905\u5B50003"
+  - first:
+      1: 100018
+    second: "\u6C34"
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: "\u51F3\u5B50"
+  - first:
+      4: 400004
+    second: "\u51F3\u5B50001"
+  - first:
+      4: 400006
+    second: "\u51F3\u5B50002"
+  - first:
+      4: 400008
+    second: "\u5E95\u90E8"
+  - first:
+      4: 400010
+    second: "\u6905\u5B50"
+  - first:
+      4: 400012
+    second: "\u6905\u5B50001"
+  - first:
+      4: 400014
+    second: "\u6905\u5B50002"
+  - first:
+      4: 400016
+    second: "\u6905\u5B50003"
+  - first:
+      4: 400018
+    second: "\u6C34"
+  - first:
+      21: 2100000
+    second: "\u4E3B\u7532\u677F"
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: "\u51F3\u5B50"
+  - first:
+      23: 2300004
+    second: "\u51F3\u5B50001"
+  - first:
+      23: 2300006
+    second: "\u51F3\u5B50002"
+  - first:
+      23: 2300008
+    second: "\u5E95\u90E8"
+  - first:
+      23: 2300010
+    second: "\u6905\u5B50"
+  - first:
+      23: 2300012
+    second: "\u6905\u5B50001"
+  - first:
+      23: 2300014
+    second: "\u6905\u5B50002"
+  - first:
+      23: 2300016
+    second: "\u6905\u5B50003"
+  - first:
+      23: 2300018
+    second: "\u6C34"
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: "\u51F3\u5B50"
+  - first:
+      33: 3300004
+    second: "\u51F3\u5B50001"
+  - first:
+      33: 3300006
+    second: "\u51F3\u5B50002"
+  - first:
+      33: 3300008
+    second: "\u5E95\u90E8"
+  - first:
+      33: 3300010
+    second: "\u6905\u5B50"
+  - first:
+      33: 3300012
+    second: "\u6905\u5B50001"
+  - first:
+      33: 3300014
+    second: "\u6905\u5B50002"
+  - first:
+      33: 3300016
+    second: "\u6905\u5B50003"
+  - first:
+      33: 3300018
+    second: "\u6C34"
+  - first:
+      43: 4300000
+    second: "\u4E3B\u7532\u677F"
+  - first:
+      43: 4300002
+    second: "\u6905\u5B50003"
+  - first:
+      43: 4300004
+    second: "\u6905\u5B50002"
+  - first:
+      43: 4300006
+    second: "\u6905\u5B50001"
+  - first:
+      43: 4300008
+    second: "\u6905\u5B50"
+  - first:
+      43: 4300010
+    second: "\u6C34"
+  - first:
+      43: 4300012
+    second: "\u51F3\u5B50002"
+  - first:
+      43: 4300014
+    second: "\u51F3\u5B50001"
+  - first:
+      43: 4300016
+    second: "\u51F3\u5B50"
+  - first:
+      43: 4300018
+    second: "\u5E95\u90E8"
+  - first:
+      111: 11100000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -90,25 +194,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -117,10 +224,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -130,13 +237,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
